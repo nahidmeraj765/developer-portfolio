@@ -11,7 +11,7 @@ h1{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -47,5 +47,37 @@ section{
 
 .red-color{
     color: red;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#home-coming{
+    border-left: 7px solid tomato;
+}
+
+#far-from-home{
+    border-left: 7px solid blue;
+}
+
+.font-measure{
+    font-size: 42px;
+}
+
+footer p{
+    text-align: center;
 }
   
